@@ -1,0 +1,2 @@
+{"author":"szx","algorithm":"local search","thread":"4","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VC++2017","os":"Windows 10","problem":"Luck","instance":"Test.txt","duration":"123.45s","obj":678.9,"email":"szx@hust.edu.cn","date":"2018-09-09 17:20:00.000"}
+test my luck

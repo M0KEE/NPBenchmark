@@ -1,0 +1,188 @@
+{
+  "problems": [
+    {
+      "Key": "PCenter",
+      "Value": {
+        "checkerPath": "Checker.PCenter.exe",
+        "instances": [
+          {
+            "Key": "待添加",
+            "Value": {
+              "results": []
+            }
+          }
+        ],
+        "minimize": true
+      }
+    },
+    {
+      "Key": "InventoryRouting",
+      "Value": {
+        "checkerPath": "Checker.InventoryRouting.exe",
+        "instances": [
+          {
+            "Key": "待添加",
+            "Value": {
+              "results": []
+            }
+          }
+        ],
+        "minimize": true
+      }
+    },
+    {
+      "Key": "GateAssignment",
+      "Value": {
+        "checkerPath": "Checker.GateAssignment.exe",
+        "instances": [
+          {
+            "Key": "rand.g4b2f8h480.json",
+            "Value": {
+              "results": []
+            }
+          },
+          {
+            "Key": "rand.g80b25f200h1440.json",
+            "Value": {
+              "results": []
+            }
+          }
+        ],
+        "minimize": false
+      }
+    },
+    {
+      "Key": "TravelingPurchaser",
+      "Value": {
+        "checkerPath": "Checker.TravelingPurchaser.exe",
+        "instances": [
+          {
+            "Key": "待添加",
+            "Value": {
+              "results": []
+            }
+          }
+        ],
+        "minimize": false
+      }
+    },
+    {
+      "Key": "DegreeConstrainedMST",
+      "Value": {
+        "checkerPath": "Checker.DegreeConstrainedMST.exe",
+        "instances": [
+          {
+            "Key": "待添加",
+            "Value": {
+              "results": []
+            }
+          }
+        ],
+        "minimize": true
+      }
+    },
+    {
+      "Key": "2DRectPacking",
+      "Value": {
+        "checkerPath": "Checker.2DRectPacking.exe",
+        "instances": [
+          {
+            "Key": "待添加",
+            "Value": {
+              "results": []
+            }
+          }
+        ],
+        "minimize": true
+      }
+    },
+    {
+      "Key": "OilDelivery",
+      "Value": {
+        "checkerPath": "Checker.OilDelivery.exe",
+        "instances": [
+          {
+            "Key": "待添加",
+            "Value": {
+              "results": []
+            }
+          }
+        ],
+        "minimize": false
+      }
+    },
+    {
+      "Key": "Luck",
+      "Value": {
+        "checkerPath": "Luck",
+        "instances": [
+          {
+            "Key": "Test.txt",
+            "Value": {
+              "results": [
+                {
+                  "header": {
+                    "author": "szx",
+                    "algorithm": "local search",
+                    "thread": "4",
+                    "cpu": "Intel Core i5-7400 3.00GHz",
+                    "ram": "16G 2400MHz",
+                    "language": "C++",
+                    "compiler": "VC++2017",
+                    "os": "Windows 10",
+                    "problem": "Luck",
+                    "instance": "Test.txt",
+                    "duration": "123.45s",
+                    "obj": 100368142,
+                    "email": "rem@hust.edu.cn",
+                    "date": "2018-09-11 09:53:42.059"
+                  },
+                  "path": "archive/Luck/20180911095342059-Test.txt"
+                },
+                {
+                  "header": {
+                    "author": "szx",
+                    "algorithm": "local search",
+                    "thread": "4",
+                    "cpu": "Intel Core i5-7400 3.00GHz",
+                    "ram": "16G 2400MHz",
+                    "language": "C++",
+                    "compiler": "VC++2017",
+                    "os": "Windows 10",
+                    "problem": "Luck",
+                    "instance": "Test.txt",
+                    "duration": "123.45s",
+                    "obj": 1143888527,
+                    "email": "rem@hust.edu.cn",
+                    "date": "2018-09-11 09:43:04.765"
+                  },
+                  "path": "archive/Luck/20180911094304765-Test.txt"
+                },
+                {
+                  "header": {
+                    "author": "提交者姓名",
+                    "algorithm": "算法名称",
+                    "thread": "算法线程数",
+                    "cpu": "处理器型号与主频",
+                    "ram": "内存容量与频率",
+                    "language": "编程语言",
+                    "compiler": "编译器",
+                    "os": "操作系统",
+                    "problem": "问题名称",
+                    "instance": "算例名称",
+                    "duration": "求解耗时",
+                    "obj": 2147483647,
+                    "email": "提交者邮箱",
+                    "date": "提交时间"
+                  },
+                  "path": ""
+                }
+              ]
+            }
+          }
+        ],
+        "minimize": false
+      }
+    }
+  ]
+}
