@@ -59,6 +59,8 @@ namespace RankPageGenerator {
 
         void checkUnseenMails() {
             lock (this) { // in case it is still running before the next poll.
+                Util.run("git", "pull");
+
                 Util.log("[info] query unseen mails");
                 using (ImapClient client = createImapClient()) {
                     bool updated = false;
@@ -70,17 +72,18 @@ namespace RankPageGenerator {
                     }
 
                     if (!updated) { return; }
-
-                    // archive.
-                    Util.Json.save(CommonCfg.RankPath, page.rank);
-
-                    // publish.
-                    Util.run("git", "pull");
-                    page.generate();
-                    Util.run("git", "add " + CommonCfg.RankPagePath);
-                    Util.run("git", "commit -m a");
-                    Util.run("git", "push origin gh-pages");
                 }
+
+                // archive.
+                Util.Json.save(CommonCfg.RankPath, page.rank);
+
+                // publish.
+                page.generate();
+                //Util.run("git", "add " + CommonCfg.RankPath);
+                //Util.run("git", "add " + CommonCfg.RankPagePath);
+                //Util.run("git", "add " + CommonCfg.RankCssPath);
+                Util.run("git", "commit -m a");
+                Util.run("git", "push origin gh-pages");
             }
         }
 
@@ -105,11 +108,21 @@ namespace RankPageGenerator {
                 Instance instance;
                 if (!problem.instances.TryGetValue(submission.instance, out instance)) { continue; }
 
-                string filePath = EmailCfg.SaveDir + submission.problem + "/" + Util.compactDateTime(now) + "-" + submission.instance;
+                string dir = CommonCfg.ArchiveDir + submission.problem + "/";
+                Directory.CreateDirectory(dir);
+                string filePath = dir + Util.compactDateTime(now) + "-" + submission.instance;
                 File.WriteAllText(filePath, solution);
+                
+                if (page.checkers.TryGetValue(problem.checkerPath, out Checker.Check check)) {
+                    submission.obj = check(solution);
+                } else if (File.Exists(problem.checkerPath)) {
+                    string obj = Util.run(problem.checkerPath, filePath);
+                    if (!double.TryParse(obj, out submission.obj)) { File.Delete(filePath); continue; }
+                } else {
+                    submission.obj = 0;
+                }
 
-                string obj = Util.run(problem.checkerPath, filePath);
-                if (!double.TryParse(obj, out submission.obj)) { File.Delete(filePath); continue; }
+                Util.run("git", "add " + filePath);
 
                 instance.results.Add(new Result { path = filePath, header = submission });
 

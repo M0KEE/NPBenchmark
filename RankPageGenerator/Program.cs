@@ -27,17 +27,15 @@ namespace RankPageGenerator {
 
         static void generateRankSample() {
             Problem problem = new Problem { minimize = false };
-            problem.checkerPath = "TPP-Checker.exe";
+            problem.checkerPath = "Luck";
 
             Instance instance = new Instance();
-            instance.results.Add(new Result { path = "3.txt", header = new Submission { obj = 3 } });
-            instance.results.Add(new Result { path = "1.txt", header = new Submission { obj = 1 } });
-            instance.results.Add(new Result { path = "2.txt", header = new Submission { obj = 2 } });
+            instance.results.Add(new Result { path = "", header = new Submission { obj = int.MaxValue } });
 
-            problem.instances.Add("TestInstance", instance);
+            problem.instances.Add("Test.txt", instance);
 
             Rank rank = new Rank();
-            rank.problems.Add("TestProblem", problem);
+            rank.problems.Add("Luck", problem);
 
             Util.Json.save(CommonCfg.RankPath, rank);
         }

@@ -15,6 +15,7 @@ namespace RankPageGenerator {
                 htw.WriteLine("<html>");
                 htw.WriteLine("<head>");
                 htw.WriteLine("<title>Benchmark Results</title>");
+                htw.WriteLine("<link rel='stylesheet' href='base.css' />");
                 htw.WriteLine("</head>");
                 htw.WriteLine("<body>");
                 htw.WriteLine($"<h1>Instruction</h1><p>{CommonCfg.AuthorInstruction}</p>");
@@ -30,7 +31,7 @@ namespace RankPageGenerator {
                         var results = problem.Value.minimize ? instance.Value.results : instance.Value.results.Reverse();
                         foreach (var result in results) {
                             Submission s = result.header;
-                            htw.WriteLine($"<tr><td>{count}</td><td>{s.author}</td><td>{s.obj}</td><td>{s.date}</td><td>{s.duration}</td><td>{s.algorithm}</td><td>{s.thread}</td><td>{s.cpu}</td><td>{s.ram}</td><td>{s.language}</td><td>{s.compiler}</td><td>{s.os}</td><td>{s.email}</td><td><a href='{result.path}'>{result.path}<a></td></tr>");
+                            htw.WriteLine($"<tr><td>{count}</td><td>{s.author}</td><td>{s.obj}</td><td>{s.date}</td><td>{s.duration}</td><td>{s.algorithm}</td><td>{s.thread}</td><td>{s.cpu}</td><td>{s.ram}</td><td>{s.language}</td><td>{s.compiler}</td><td>{s.os}</td><td>{s.email}</td><td><a href='{result.path}'>download<a></td></tr>");
                             ++count;
                         }
                         htw.WriteLine("</tbody></table></li>");
@@ -44,5 +45,8 @@ namespace RankPageGenerator {
         }
 
         public Rank rank = Util.Json.load<Rank>(CommonCfg.RankPath);
+        public Dictionary<string, Checker.Check> checkers = new Dictionary<string, Checker.Check> {
+            { "Luck", Checker.luck.check }
+        };
     }
 }

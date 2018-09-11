@@ -13,20 +13,8 @@ namespace RankPageGenerator {
 
     [DataContract]
     public class Problem {
-        //[DataContract]
-        //public class ResultComparer : IComparer<Result> {
-        //    public int Compare(Result x, Result y) {
-        //        int objDiff = header.obj.CompareTo(other.header.obj) * coef;
-        //        return (objDiff != 0) ? objDiff : x.header.date.CompareTo(y.header.date);
-        //    }
-
-        //    [DataMember] public int coef = 1;
-        //}
-        //public bool Minimize { get { return cmp.coef > 0; } set { cmp.coef = value ? 1 : -1; } }
-        //[DataMember] public ResultComparer cmp = new ResultComparer();
-
         [DataMember] public bool minimize = true;
-        [DataMember] public string checkerPath = "chekcer.exe";
+        [DataMember] public string checkerPath; // first check if there is a built-in method, then try to launch the executable.
         [DataMember] public Dictionary<string, Instance> instances = new Dictionary<string, Instance>();
     }
 

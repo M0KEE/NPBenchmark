@@ -3,8 +3,10 @@
 
 namespace RankPageGenerator {
     public class CommonCfg {
+        public const string ArchiveDir = "archive/";
         public const string RankPath = "rank.json";
         public const string RankPagePath = "index.html";
+        public const string RankCssPath = "base.css";
 
         public const int MaxResultsCountPerInstance = 100;
 
@@ -38,7 +40,6 @@ namespace RankPageGenerator {
             public const string Smtp = "mail.hust.edu.cn";
         }
 
-        public const string SaveDir = "archive/";
         public const string SubjectFilter = "[NPBenchmark]";
 
         public const string MyAddress = "rem@hust.edu.cn";
