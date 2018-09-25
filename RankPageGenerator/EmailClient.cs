@@ -42,6 +42,8 @@ namespace RankPageGenerator {
 
         // [NonBlocking]
         public void startPollAsync() {
+            page.generate();
+
             pollTimer?.Dispose();
             pollTimer = new Timer((o) => {
                 try {
