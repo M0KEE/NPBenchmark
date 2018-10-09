@@ -42,6 +42,7 @@ namespace RankPageGenerator {
 
         // [NonBlocking]
         public void startPollAsync() {
+            Util.run("git", "pull origin gh-pages");
             page.generate();
 
             pollTimer?.Dispose();
@@ -61,7 +62,7 @@ namespace RankPageGenerator {
 
         void checkUnseenMails() {
             lock (this) { // in case it is still running before the next poll.
-                Util.run("git", "pull");
+                Util.run("git", "pull origin gh-pages");
 
                 Util.log("[info] query unseen mails");
                 using (ImapClient client = createImapClient()) {
@@ -81,11 +82,6 @@ namespace RankPageGenerator {
 
                 // publish.
                 page.generate();
-                //Util.run("git", "add " + CommonCfg.RankPath);
-                //Util.run("git", "add " + CommonCfg.RankPagePath);
-                //Util.run("git", "add " + CommonCfg.RankCssPath);
-                Util.run("git", "commit -m a");
-                Util.run("git", "push origin gh-pages");
             }
         }
 
@@ -123,6 +119,8 @@ namespace RankPageGenerator {
                 } else {
                     submission.obj = 0;
                 }
+
+                if (submission.obj < 0) { continue; } // infeasible solution.
 
                 Util.run("git", "add " + filePath);
 

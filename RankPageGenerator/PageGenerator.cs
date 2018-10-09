@@ -42,6 +42,12 @@ namespace RankPageGenerator {
                 htw.WriteLine("</body>");
                 htw.WriteLine("</html>");
             }
+            
+            Util.run("git", "add " + CommonCfg.RankPath);
+            Util.run("git", "add " + CommonCfg.RankPagePath);
+            //Util.run("git", "add " + CommonCfg.RankCssPath);
+            Util.run("git", "commit -m a");
+            Util.run("git", "push origin gh-pages");
         }
 
         public Rank rank = Util.Json.load<Rank>(CommonCfg.RankPath);
