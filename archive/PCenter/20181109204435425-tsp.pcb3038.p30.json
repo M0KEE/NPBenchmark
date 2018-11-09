@@ -1,0 +1,35 @@
+{"author":"szx","algorithm":"rand","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.pcb3038.p30.json","duration":"0.131000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  433,
+  863,
+  673,
+  546,
+  2569,
+  2527,
+  2928,
+  1648,
+  1925,
+  625,
+  2992,
+  1139,
+  1635,
+  2192,
+  2423,
+  2135,
+  1686,
+  2539,
+  622,
+  482,
+  2584,
+  436,
+  313,
+  139,
+  1107,
+  1646,
+  2605,
+  1386,
+  1369,
+  926
+ ]
+}

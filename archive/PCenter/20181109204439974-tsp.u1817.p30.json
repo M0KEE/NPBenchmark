@@ -1,0 +1,35 @@
+{"author":"szx","algorithm":"rand","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.u1817.p30.json","duration":"0.082000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  1138,
+  401,
+  295,
+  181,
+  1738,
+  1628,
+  1188,
+  1096,
+  390,
+  637,
+  1668,
+  1394,
+  1026,
+  501,
+  1583,
+  693,
+  1281,
+  1813,
+  897,
+  1740,
+  933,
+  1671,
+  296,
+  545,
+  125,
+  655,
+  1399,
+  1082,
+  1642,
+  1428
+ ]
+}

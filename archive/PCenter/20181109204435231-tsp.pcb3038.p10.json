@@ -1,0 +1,15 @@
+{"author":"szx","algorithm":"rand","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.pcb3038.p10.json","duration":"0.127000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  121,
+  2389,
+  495,
+  910,
+  2916,
+  3034,
+  1165,
+  462,
+  978,
+  2070
+ ]
+}
