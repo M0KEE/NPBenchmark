@@ -114,7 +114,7 @@ namespace RankPageGenerator {
                 if (page.checkers.TryGetValue(problem.checkerPath, out Checker.Check check)) {
                     submission.obj = check(solution);
                 } else if (File.Exists(problem.checkerPath)) {
-                    string obj = Util.run(problem.checkerPath, dir + submission.instance + " " + filePath);
+                    string obj = Util.runRead(problem.checkerPath, dir + submission.instance + " " + filePath);
                     if (!double.TryParse(obj, out submission.obj)) { File.Delete(filePath); continue; }
                 } else {
                     submission.obj = 0;

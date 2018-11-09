@@ -95,7 +95,7 @@ namespace RankPageGenerator {
 
 
         // [Blocking][NoWindow][InterceptOutput]
-        public static string run(string fileName, string arguments = "") {
+        public static string runRead(string fileName, string arguments = "") {
             ProcessStartInfo psi = new ProcessStartInfo(fileName, arguments);
             psi.WindowStyle = ProcessWindowStyle.Hidden;
             psi.UseShellExecute = false;
@@ -110,6 +110,12 @@ namespace RankPageGenerator {
             psi.WindowStyle = ProcessWindowStyle.Hidden;
             psi.UseShellExecute = false;
             return Process.Start(psi);
+        }
+        // [Blocking][NoWindow][GetExitCode]
+        public static int run(string fileName, string arguments = "") {
+            Process p = runAsync(fileName, arguments);
+            p.WaitForExit();
+            return p.ExitCode;
         }
         // [Blocking][ShowWindow]
         public static Process runUI(string fileName, string arguments = "") {
