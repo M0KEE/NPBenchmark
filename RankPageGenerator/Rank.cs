@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+
 
 namespace RankPageGenerator {
     [DataContract]
@@ -27,7 +29,13 @@ namespace RankPageGenerator {
     public class Result : IComparable<Result> {
         public int CompareTo(Result other) {
             int objDiff = header.obj.CompareTo(other.header.obj);
-            return (objDiff != 0) ? objDiff : header.date.CompareTo(other.header.date);
+            if (objDiff != 0) { return objDiff; }
+            double duration, otherDuration;
+            const string DoubleRegex = @"[+-]?(\d+\.?\d*)|(\d*\.?\d+)";
+            double.TryParse(Regex.Match(header.duration, DoubleRegex).Value, out duration);
+            double.TryParse(Regex.Match(other.header.duration, DoubleRegex).Value, out otherDuration);
+            if (duration == otherDuration) { return header.date.CompareTo(other.header.date); }
+            return (duration < otherDuration) ? -1 : 1;
         }
 
         [DataMember] public string path;
