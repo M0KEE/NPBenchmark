@@ -120,7 +120,7 @@ namespace RankPageGenerator {
                     submission.obj = 0;
                 }
 
-                if (submission.obj < 0) { continue; } // infeasible solution.
+                if (submission.obj <= 0) { continue; } // infeasible or trivial solution.
 
                 Util.run("git", "add " + filePath);
 
