@@ -1,0 +1,35 @@
+{"author":"hyj","algorithm":"tabu_search with tabustep=1000","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.u1060.p30.json","duration":"4.964000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  203,
+  718,
+  661,
+  761,
+  731,
+  118,
+  610,
+  904,
+  821,
+  678,
+  222,
+  388,
+  76,
+  933,
+  542,
+  309,
+  458,
+  35,
+  402,
+  1029,
+  984,
+  695,
+  792,
+  65,
+  368,
+  153,
+  4,
+  173,
+  496,
+  329
+ ]
+}

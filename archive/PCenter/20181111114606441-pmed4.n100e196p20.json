@@ -1,0 +1,25 @@
+{"author":"hyj","algorithm":"tabu_search with tabustep=1000","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed4.n100e196p20.json","duration":"0.015000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  52,
+  14,
+  71,
+  4,
+  63,
+  65,
+  12,
+  35,
+  64,
+  86,
+  42,
+  25,
+  92,
+  78,
+  47,
+  82,
+  9,
+  39,
+  24,
+  81
+ ]
+}

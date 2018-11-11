@@ -1,0 +1,25 @@
+{"author":"hyj","algorithm":"tabu_search with tabustep=1000","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.pcb3038.p20.json","duration":"919.524000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  1052,
+  2102,
+  1764,
+  1511,
+  471,
+  2495,
+  185,
+  1467,
+  2027,
+  2022,
+  2282,
+  2514,
+  2719,
+  983,
+  2833,
+  1118,
+  233,
+  279,
+  1161,
+  155
+ ]
+}
