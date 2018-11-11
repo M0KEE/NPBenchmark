@@ -14,6 +14,7 @@ namespace RankPageGenerator {
                 htw.WriteLine("<!DOCTYPE html>");
                 htw.WriteLine("<html>");
                 htw.WriteLine("<head>");
+                htw.WriteLine("<meta charset='utf-8' />");
                 htw.WriteLine("<title>Benchmark Results</title>");
                 htw.WriteLine("<link rel='stylesheet' href='base.css' />");
                 htw.WriteLine("</head>");
@@ -31,7 +32,7 @@ namespace RankPageGenerator {
                         var results = problem.Value.minimize ? instance.Value.results : instance.Value.results.Reverse();
                         foreach (var result in results) {
                             Submission s = result.header;
-                            htw.WriteLine($"<tr><td>{count}</td><td>{s.author}</td><td>{s.obj}</td><td>{s.date}</td><td>{s.duration}</td><td>{s.algorithm}</td><td>{s.thread}</td><td>{s.cpu}</td><td>{s.ram}</td><td>{s.language}</td><td>{s.compiler}</td><td>{s.os}</td><td>{s.email}</td><td><a href='{result.path}'>download<a></td></tr>");
+                            htw.WriteLine($"<tr><td>{count}</td><td id='auth'>{s.author}</td><td>{s.obj}</td><td>{s.date}</td><td>{s.duration}</td><td id='alg'>{s.algorithm}</td><td>{s.thread}</td><td>{s.cpu}</td><td>{s.ram}</td><td>{s.language}</td><td>{s.compiler}</td><td>{s.os}</td><td>{s.email}</td><td><a href='{result.path}'>download<a></td></tr>");
                             ++count;
                         }
                         htw.WriteLine("</tbody></table></li>");
