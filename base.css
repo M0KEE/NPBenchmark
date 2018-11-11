@@ -1,3 +1,14 @@
+table {
+  width: 100%;
+}
+
 td {
   padding: 4px;
+}
+
+#alg {
+  max-width: 8em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
