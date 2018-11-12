@@ -1,0 +1,38 @@
+{"author":"SongDi","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i3-2130 3.40GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed5.n100e196p33.json","duration":"0.011000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  0,
+  88,
+  2,
+  87,
+  93,
+  75,
+  6,
+  65,
+  38,
+  9,
+  60,
+  67,
+  86,
+  74,
+  85,
+  44,
+  37,
+  99,
+  40,
+  51,
+  41,
+  21,
+  22,
+  78,
+  24,
+  47,
+  70,
+  27,
+  72,
+  29,
+  30,
+  31,
+  95
+ ]
+}
