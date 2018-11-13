@@ -1,0 +1,35 @@
+{"author":"Huang Shihao","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i7-4720 2.60GHz","ram":"8G 1600MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.rl1323.p30.json","duration":"33.212000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  46,
+  99,
+  105,
+  112,
+  140,
+  177,
+  221,
+  222,
+  231,
+  258,
+  279,
+  283,
+  359,
+  361,
+  397,
+  441,
+  457,
+  547,
+  558,
+  595,
+  610,
+  619,
+  699,
+  704,
+  750,
+  849,
+  864,
+  959,
+  1053,
+  1251
+ ]
+}

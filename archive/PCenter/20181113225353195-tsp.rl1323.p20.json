@@ -1,0 +1,25 @@
+{"author":"Huang Shihao","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i7-4720 2.60GHz","ram":"8G 1600MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.rl1323.p20.json","duration":"28.122000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  57,
+  65,
+  103,
+  176,
+  184,
+  252,
+  281,
+  289,
+  300,
+  483,
+  544,
+  603,
+  681,
+  769,
+  811,
+  913,
+  1033,
+  1084,
+  1150,
+  1251
+ ]
+}

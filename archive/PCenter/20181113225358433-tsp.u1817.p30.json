@@ -1,0 +1,35 @@
+{"author":"hyj","algorithm":"tabu_search with tabustep=n(n-p)/20 and total_iterations=n(n-p)*1.5+adaptive n(n-p)/5 if peroid\u003en(n-p)/10","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.u1817.p30.json","duration":"5808.936000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  5,
+  48,
+  83,
+  127,
+  195,
+  263,
+  307,
+  335,
+  376,
+  435,
+  501,
+  562,
+  611,
+  672,
+  720,
+  753,
+  816,
+  865,
+  976,
+  1152,
+  1181,
+  1217,
+  1307,
+  1390,
+  1416,
+  1465,
+  1498,
+  1609,
+  1688,
+  1772
+ ]
+}
