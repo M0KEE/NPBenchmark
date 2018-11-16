@@ -1,0 +1,25 @@
+{"author":"SongDi","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i3-2130 3.40GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.u1060.p20.json","duration":"8.289000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  1029,
+  982,
+  342,
+  9,
+  56,
+  110,
+  718,
+  743,
+  764,
+  155,
+  693,
+  817,
+  193,
+  858,
+  294,
+  387,
+  950,
+  601,
+  667,
+  472
+ ]
+}

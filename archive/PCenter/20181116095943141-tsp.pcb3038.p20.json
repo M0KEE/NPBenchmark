@@ -1,0 +1,25 @@
+{"author":"SongDi","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i3-2130 3.40GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.pcb3038.p20.json","duration":"599.026000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  471,
+  155,
+  2102,
+  1161,
+  1467,
+  2027,
+  2833,
+  982,
+  1048,
+  1118,
+  2021,
+  1020,
+  2404,
+  185,
+  279,
+  233,
+  2717,
+  2282,
+  1517,
+  2513
+ ]
+}
