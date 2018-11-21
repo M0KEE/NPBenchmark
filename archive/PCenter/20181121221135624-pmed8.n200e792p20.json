@@ -1,0 +1,25 @@
+{"author":"zqy","algorithm":"rand","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed8.n200e792p20.json","duration":"0.089000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  3,
+  34,
+  11,
+  199,
+  154,
+  80,
+  63,
+  128,
+  83,
+  140,
+  9,
+  188,
+  79,
+  45,
+  193,
+  172,
+  175,
+  65,
+  181,
+  132
+ ]
+}
