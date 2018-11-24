@@ -1,0 +1,15 @@
+{"author":"fangyuan","algorithm":"tabu_search","thread":"1","cpu":"Intel Core i5-6300HQ 2.30GHz","ram":"8G 2133MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed12.n300e1758p10.json","duration":"0.023000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  225,
+  24,
+  29,
+  180,
+  234,
+  97,
+  296,
+  25,
+  214,
+  299
+ ]
+}
