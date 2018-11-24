@@ -1,0 +1,35 @@
+{"author":"ZhangJialu","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i3-3240 3.40GHz","ram":"8G 1600MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.rl1323.p30.json","duration":"599.003000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  815,
+  115,
+  36,
+  361,
+  95,
+  959,
+  456,
+  1173,
+  441,
+  457,
+  475,
+  38,
+  595,
+  699,
+  180,
+  849,
+  557,
+  1026,
+  1251,
+  529,
+  630,
+  1143,
+  754,
+  1303,
+  611,
+  1233,
+  258,
+  2,
+  625,
+  704
+ ]
+}

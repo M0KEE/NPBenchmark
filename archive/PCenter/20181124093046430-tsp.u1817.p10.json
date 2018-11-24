@@ -1,0 +1,15 @@
+{"author":"ZhangJialu","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i3-3240 3.40GHz","ram":"8G 1600MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.u1817.p10.json","duration":"599.003000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  739,
+  247,
+  1795,
+  1585,
+  205,
+  324,
+  407,
+  495,
+  1141,
+  920
+ ]
+}

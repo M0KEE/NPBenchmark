@@ -1,0 +1,15 @@
+{"author":"ZhangJialu","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i3-3240 3.40GHz","ram":"8G 1600MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.pcb3038.p10.json","duration":"599.009000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  2381,
+  503,
+  2799,
+  359,
+  1442,
+  440,
+  1289,
+  2670,
+  1894,
+  1383
+ ]
+}
