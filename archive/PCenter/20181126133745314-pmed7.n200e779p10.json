@@ -1,0 +1,15 @@
+{"author":"TaoShengwei","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i7-6700hq 2.60GHz","ram":"12G 1600MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed7.n200e779p10.json","duration":"0.026000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  13,
+  45,
+  75,
+  94,
+  97,
+  98,
+  163,
+  179,
+  182,
+  186
+ ]
+}
