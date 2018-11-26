@@ -1,0 +1,15 @@
+{"author":"jinqi","algorithm":"tabuSearch","thread":"1","cpu":"Intel Core i5-4210u 1.70GHz","ram":"8G","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed27.n600e7072p10.json","duration":"0.264000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  73,
+  418,
+  296,
+  376,
+  552,
+  599,
+  321,
+  146,
+  195,
+  442
+ ]
+}

@@ -1,0 +1,25 @@
+{"author":"jinqi","algorithm":"tabuSearch","thread":"1","cpu":"Intel Core i5-4210u 1.70GHz","ram":"8G","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed8.n200e792p20.json","duration":"0.118000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  65,
+  77,
+  188,
+  191,
+  199,
+  181,
+  79,
+  176,
+  95,
+  172,
+  154,
+  45,
+  184,
+  101,
+  93,
+  169,
+  80,
+  83,
+  140,
+  132
+ ]
+}
