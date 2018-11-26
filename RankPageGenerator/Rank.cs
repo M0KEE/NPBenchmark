@@ -31,9 +31,8 @@ namespace RankPageGenerator {
             int objDiff = header.obj.CompareTo(other.header.obj);
             if (objDiff != 0) { return objDiff; }
             double duration, otherDuration;
-            const string DoubleRegex = @"[+-]?(\d+\.?\d*)|(\d*\.?\d+)";
-            double.TryParse(Regex.Match(header.duration, DoubleRegex).Value, out duration);
-            double.TryParse(Regex.Match(other.header.duration, DoubleRegex).Value, out otherDuration);
+            double.TryParse(Regex.Match(header.duration, Util.DoubleRegex).Value, out duration);
+            double.TryParse(Regex.Match(other.header.duration, Util.DoubleRegex).Value, out otherDuration);
             if (duration == otherDuration) { return header.date.CompareTo(other.header.date); }
             return (duration < otherDuration) ? -1 : 1;
         }

@@ -66,6 +66,9 @@ namespace RankPageGenerator {
             }
         }
 
+        public const string IntRegex = @"[+-]?\d+";
+        public const string DoubleRegex = @"[+-]?(\d+\.?\d*)|(\d*\.?\d+)";
+
         public static readonly char[] LineEndings = { '\r', '\n' };
 
 

@@ -97,6 +97,7 @@ namespace RankPageGenerator {
 
                 DateTime now = DateTime.Now;
 
+                // TODO[szx][0]: handle deserialization failure.
                 Submission submission = Util.Json.fromJsonString<Submission>(header);
                 submission.email = msg.From.Address;
                 submission.date = Util.friendlyDateTime(now);
