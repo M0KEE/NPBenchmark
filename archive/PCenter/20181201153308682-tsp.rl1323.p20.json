@@ -1,0 +1,25 @@
+{"author":"zqy","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.rl1323.p20.json","duration":"20.088000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  811,
+  103,
+  57,
+  918,
+  543,
+  289,
+  252,
+  176,
+  300,
+  977,
+  281,
+  457,
+  1033,
+  483,
+  1152,
+  681,
+  1251,
+  166,
+  61,
+  769
+ ]
+}

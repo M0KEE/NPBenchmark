@@ -1,0 +1,35 @@
+{"author":"zqy","algorithm":"TabuSearch","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.pcb3038.p30.json","duration":"550.152000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  2226,
+  2373,
+  155,
+  1851,
+  181,
+  2852,
+  777,
+  1415,
+  2216,
+  910,
+  275,
+  1260,
+  1789,
+  2866,
+  837,
+  1692,
+  1550,
+  304,
+  1183,
+  256,
+  948,
+  2134,
+  2295,
+  1635,
+  2519,
+  211,
+  881,
+  2993,
+  815,
+  1894
+ ]
+}
