@@ -1,0 +1,299 @@
+{"author":"test","algorithm":"SimulateAnnealArithmetic","thread":"1","cpu":"Inter(R) Core(TM) i5-8250U CPU @ 1.60GHZ 1.80GHZ","ram":"8G","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"DegreeConstrainedMST","instance":"rand.v50e400dc3.json","duration":"0.136000s","obj":0,"email":"","date":""}
+{
+ "edges": [
+  {
+   "id": 0,
+   "source": 0,
+   "target": 1,
+   "length": 5
+  },
+  {
+   "id": 233,
+   "source": 2,
+   "target": 26,
+   "length": 2
+  },
+  {
+   "id": 112,
+   "source": 4,
+   "target": 40,
+   "length": 1
+  },
+  {
+   "id": 260,
+   "source": 5,
+   "target": 41,
+   "length": 3
+  },
+  {
+   "id": 283,
+   "source": 7,
+   "target": 16,
+   "length": 2
+  },
+  {
+   "id": 84,
+   "source": 8,
+   "target": 21,
+   "length": 1
+  },
+  {
+   "id": 51,
+   "source": 8,
+   "target": 5,
+   "length": 2
+  },
+  {
+   "id": 365,
+   "source": 9,
+   "target": 31,
+   "length": 2
+  },
+  {
+   "id": 75,
+   "source": 11,
+   "target": 49,
+   "length": 2
+  },
+  {
+   "id": 255,
+   "source": 11,
+   "target": 6,
+   "length": 3
+  },
+  {
+   "id": 241,
+   "source": 12,
+   "target": 3,
+   "length": 7
+  },
+  {
+   "id": 274,
+   "source": 12,
+   "target": 16,
+   "length": 7
+  },
+  {
+   "id": 382,
+   "source": 13,
+   "target": 2,
+   "length": 7
+  },
+  {
+   "id": 336,
+   "source": 14,
+   "target": 22,
+   "length": 2
+  },
+  {
+   "id": 59,
+   "source": 15,
+   "target": 13,
+   "length": 2
+  },
+  {
+   "id": 157,
+   "source": 15,
+   "target": 30,
+   "length": 2
+  },
+  {
+   "id": 16,
+   "source": 16,
+   "target": 17,
+   "length": 4
+  },
+  {
+   "id": 339,
+   "source": 17,
+   "target": 1,
+   "length": 5
+  },
+  {
+   "id": 293,
+   "source": 18,
+   "target": 10,
+   "length": 4
+  },
+  {
+   "id": 140,
+   "source": 19,
+   "target": 5,
+   "length": 1
+  },
+  {
+   "id": 210,
+   "source": 22,
+   "target": 44,
+   "length": 4
+  },
+  {
+   "id": 313,
+   "source": 22,
+   "target": 30,
+   "length": 3
+  },
+  {
+   "id": 397,
+   "source": 25,
+   "target": 8,
+   "length": 1
+  },
+  {
+   "id": 149,
+   "source": 25,
+   "target": 0,
+   "length": 3
+  },
+  {
+   "id": 27,
+   "source": 27,
+   "target": 28,
+   "length": 5
+  },
+  {
+   "id": 193,
+   "source": 29,
+   "target": 38,
+   "length": 1
+  },
+  {
+   "id": 272,
+   "source": 29,
+   "target": 15,
+   "length": 5
+  },
+  {
+   "id": 239,
+   "source": 31,
+   "target": 29,
+   "length": 1
+  },
+  {
+   "id": 306,
+   "source": 31,
+   "target": 27,
+   "length": 2
+  },
+  {
+   "id": 32,
+   "source": 32,
+   "target": 33,
+   "length": 5
+  },
+  {
+   "id": 350,
+   "source": 33,
+   "target": 18,
+   "length": 2
+  },
+  {
+   "id": 345,
+   "source": 33,
+   "target": 38,
+   "length": 4
+  },
+  {
+   "id": 294,
+   "source": 34,
+   "target": 30,
+   "length": 9
+  },
+  {
+   "id": 367,
+   "source": 36,
+   "target": 7,
+   "length": 8
+  },
+  {
+   "id": 117,
+   "source": 37,
+   "target": 20,
+   "length": 1
+  },
+  {
+   "id": 110,
+   "source": 37,
+   "target": 17,
+   "length": 1
+  },
+  {
+   "id": 278,
+   "source": 38,
+   "target": 4,
+   "length": 4
+  },
+  {
+   "id": 353,
+   "source": 39,
+   "target": 14,
+   "length": 6
+  },
+  {
+   "id": 200,
+   "source": 39,
+   "target": 47,
+   "length": 3
+  },
+  {
+   "id": 58,
+   "source": 40,
+   "target": 24,
+   "length": 3
+  },
+  {
+   "id": 197,
+   "source": 43,
+   "target": 35,
+   "length": 1
+  },
+  {
+   "id": 43,
+   "source": 43,
+   "target": 44,
+   "length": 4
+  },
+  {
+   "id": 183,
+   "source": 45,
+   "target": 40,
+   "length": 7
+  },
+  {
+   "id": 329,
+   "source": 46,
+   "target": 42,
+   "length": 8
+  },
+  {
+   "id": 285,
+   "source": 46,
+   "target": 10,
+   "length": 8
+  },
+  {
+   "id": 103,
+   "source": 47,
+   "target": 6,
+   "length": 1
+  },
+  {
+   "id": 91,
+   "source": 47,
+   "target": 23,
+   "length": 4
+  },
+  {
+   "id": 76,
+   "source": 48,
+   "target": 3,
+   "length": 5
+  },
+  {
+   "id": 158,
+   "source": 49,
+   "target": 0,
+   "length": 5
+  }
+ ]
+}
