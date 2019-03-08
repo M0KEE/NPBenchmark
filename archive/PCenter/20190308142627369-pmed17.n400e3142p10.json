@@ -1,0 +1,15 @@
+{"author":"yuanjie","algorithm":"tabu_serch","thread":"1","cpu":"Intel Core i5-8400 2.80GHz","ram":"8G 2666MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed17.n400e3142p10.json","duration":"0.057000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  198,
+  240,
+  308,
+  398,
+  263,
+  298,
+  11,
+  41,
+  391,
+  344
+ ]
+}

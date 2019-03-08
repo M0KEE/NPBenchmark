@@ -1,0 +1,15 @@
+{"author":"Liuke","algorithm":"tabu_search","thread":"1","cpu":"Intel Core i5-4590 3.30GHz","ram":"8G 2133MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed2.n100e193p10.json","duration":"0.009000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  67,
+  10,
+  6,
+  72,
+  15,
+  45,
+  95,
+  31,
+  59,
+  76
+ ]
+}

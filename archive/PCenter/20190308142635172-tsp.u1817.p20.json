@@ -1,0 +1,25 @@
+{"author":"yuanjie","algorithm":"tabu_serch","thread":"1","cpu":"Intel Core i5-8400 2.80GHz","ram":"8G 2666MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.u1817.p20.json","duration":"599.026000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  87,
+  1524,
+  1071,
+  989,
+  1411,
+  1736,
+  629,
+  1696,
+  1450,
+  1115,
+  791,
+  18,
+  387,
+  128,
+  1263,
+  722,
+  1668,
+  911,
+  1584,
+  556
+ ]
+}

@@ -1,0 +1,15 @@
+{"author":"yuanjie","algorithm":"tabu_serch","thread":"1","cpu":"Intel Core i5-8400 2.80GHz","ram":"8G 2666MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"tsp.pcb3038.p10.json","duration":"12.175000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  504,
+  1891,
+  2381,
+  2670,
+  1388,
+  440,
+  2799,
+  359,
+  1299,
+  1442
+ ]
+}
