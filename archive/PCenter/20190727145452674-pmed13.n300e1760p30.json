@@ -1,0 +1,35 @@
+{"author":"zqy","algorithm":"Tabu Search with vertex weighting","thread":"1","cpu":"Intel Core i5-7400 3.00GHz","ram":"16G 2400MHz","language":"C++","compiler":"VS2017","os":"Windows 10","problem":"PCenter","instance":"pmed13.n300e1760p30.json","duration":"0.037000s","obj":0,"email":"","date":""}
+{
+ "centers": [
+  124,
+  290,
+  238,
+  217,
+  14,
+  207,
+  274,
+  246,
+  178,
+  252,
+  31,
+  276,
+  72,
+  205,
+  192,
+  254,
+  210,
+  107,
+  75,
+  39,
+  15,
+  179,
+  130,
+  269,
+  22,
+  189,
+  10,
+  20,
+  172,
+  260
+ ]
+}
